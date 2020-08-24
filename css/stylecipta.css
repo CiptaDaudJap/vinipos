@@ -1,0 +1,28 @@
+/* css sendiri */
+
+.slider h3, 
+.slider h5 
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.parallax-container {
+ /* height: 240px; kalau di hp akan hilang bawahnya jadi pakai % saja */
+ height: 20%;
+}
+
+/*  artinya jika opacity tdk berhasil mungkin di css materalize sdh ada opacity 
+    maka kita pakai !important jadi opacitynya pakai yg ini */
+
+.parallax img {
+    filter: grayscale(5);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 3px rgba(0,0,0,0,8));
+}
+.container ,footer{
+    padding:  8px;
+}
